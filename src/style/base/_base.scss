@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 100%;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin: 0 auto;
+    padding: 0;
+    color: #13144ebd;
+    min-height: 100%;
+    width: 100%;
+    font-size: 1.3em;
+    font-family: 'Metrophobic', sans-serif;
+}
+
+h2,
+h3,
+p {
+    margin-bottom: 1.5em;
+}
+
+h2 {
+    border-bottom: 2px solid #dcd105bf;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Doppio One', sans-serif;
+}
+
+.flash,
+header,
+main,
+footer {
+    flex-shrink: 0;
+}

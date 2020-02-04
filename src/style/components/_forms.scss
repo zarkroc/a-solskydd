@@ -1,0 +1,112 @@
+.contact li,
+.contact_form input[type="submit"] {
+    list-style: none;
+    text-align: center;
+    border: 3px solid #dcd105bf;
+    border-radius: 28px;
+    line-height: 2em;
+    width: 8em;
+    background-color: white
+}
+
+.contact li a,
+.contact_form input[type="submit"] {
+    text-decoration: none;
+    color: #13144ebd;
+    display: block;
+    font-size: 1.2em;
+    padding: 0.5em;
+    font-weight: bold;
+    font-family: 'Doppio One', sans-serif;
+}
+
+.contact li a:hover,
+.contact_form input[type="submit"]:hover {
+    text-decoration: none;
+    background-color: #000836c2;
+    border-radius: 28px;
+    color: white;
+    padding: 0.62em;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.contact li:hover,
+.contact_form input[type="submit"]:hover {
+    border: none;
+}
+
+.mail {
+    padding-bottom: 2.5em;
+}
+
+.contact_form {
+    max-width:30em;
+    border-radius:2px;
+    padding:20px;
+}
+
+.contact_form ul{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+.contact_form li{
+    display: block;
+    padding: 9px;
+    border:1px solid #2e30923d;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+.contact_form li:last-child{
+    border:none;
+    margin-bottom: 0;
+    text-align: center;
+}
+.contact_form li > label{
+    display: block;
+    float: left;
+    margin-top: -19px;
+    background: #FFFFFF;
+    height: 14px;
+    padding: 2px 5px 2px 5px;
+    color: #2e3092db;
+    font-size: 14px;
+}
+.contact_form input[type="text"],
+.contact_form input[type="email"],
+.contact_form textarea
+{
+    box-sizing: border-box;
+    width: 100%;
+    display: block;
+    outline: none;
+    border: none;
+    line-height: 25px;
+    font-size: 16px;
+    padding: 0;
+}
+
+.contact_form li > span{
+    background: #4d4fc81a;
+    display: block;
+    padding: 3px;
+    margin: 0 -9px -9px -9px;
+    text-align: center;
+    color: #2e30926e;
+    font-size: 11px;
+    border-radius: 10px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.contact-info p {
+    padding-bottom: 0;
+}
+
+.contact-info h3 {
+    border-bottom: 2px solid #dcd105bf;
+}
