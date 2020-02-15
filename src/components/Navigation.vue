@@ -1,5 +1,5 @@
 <template>
-  <header>
+  <header class="navbar" :class="{ 'hidden-navbar' :  !showNavbar}">
     <div class="logo">
       <a href="Home">
         <img src="@/assets/images/logo2.gif" alt="logo a-solskydd" />
