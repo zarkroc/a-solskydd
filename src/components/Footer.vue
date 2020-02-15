@@ -37,13 +37,6 @@
         <br />
       </div>
     </div>
-    <iframe
-      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2039.1918340131456!2d18.0842875!3d59.262944!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f782a7256bd41%3A0xca0ad61126a3a552!2sA-Solskydd!5e0!3m2!1ssv!2sse!4v1564732784599!5m2!1ssv!2sse"
-      width="300"
-      height="250"
-      frameborder="0"
-      allowfullscreen
-    ></iframe>
     <p>Copyright &copy; A-SOLSKYDD AB 2019</p>
   </footer>
 </template>
