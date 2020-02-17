@@ -1,10 +1,10 @@
 <template>
-  <section>
-    <aside class="products">
+  <main class="products">
+    <aside>
       <button v-on:click="clickProduct('Persienner')">Persienner</button>
-      <div v-if="showPersienner">
-        <Persienner @clicked="showComponent" />
-      </div>
+
+      <Persienner @clicked="showComponent" v-if="showPersienner" />
+
       <button v-on:click="showPlisseer = !showPlisseer">Plissèer</button>
       <div v-if="showPlisseer">
         <Plisseer @clicked="showComponent" />
@@ -34,14 +34,13 @@
       <div v-if="showDuetter">
         <Duetter @clicked="showComponent" />
       </div>
-      >
     </aside>
     <section class="product-container">
       <div v-if="showProduct">
         <component v-bind:is="dynamicComponent"></component>
       </div>
     </section>
-  </section>
+  </main>
 </template>
 
 <script>

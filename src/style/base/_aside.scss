@@ -2,7 +2,42 @@ aside {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  border: 3px solid black;
   padding: 15px;
   background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+aside button {
+  background-color: white;
+  padding: 0.1em;
+  margin: 0.1em;
+  text-align: center;
+  width: 7em;
+  border: 0;
+}
+
+aside div {
+  display: flex;
+  flex-direction: column;
+}
+aside div button {
+  align-self: flex-start;
+  margin-left: 0.7em;
+  padding: 0.1em;
+  width: 7em;
+}
+
+div button {
+  align-self: flex-start;
+}
+
+aside button {
+  background-color: white;
+}
+
+aside button:hover {
+  text-decoration-color: #dcd105bf;
+  text-decoration: underline;
 }
