@@ -1,21 +1,39 @@
 <template>
   <div>
-    <button v-on:click="resetShow('16mm')">
+    <button
+      v-on:click="resetShow('16mm', $event)"
+      :class="{ highlight: selected == '16mm' }"
+    >
       16mm
     </button>
-    <button v-on:click="resetShow('25mm')">
+    <button
+      v-on:click="resetShow('25mm', $event)"
+      :class="{ highlight: selected == '25mm' }"
+    >
       25mm
     </button>
-    <button v-on:click="resetShow('35mm')">
+    <button
+      v-on:click="resetShow('35mm', $event)"
+      :class="{ highlight: selected == '35mm' }"
+    >
       35mm
     </button>
-    <button v-on:click="resetShow('50mm')">
+    <button
+      v-on:click="resetShow('50mm', $event)"
+      :class="{ highlight: selected == '50mm' }"
+    >
       50mm
     </button>
-    <button v-on:click="resetShow('Wood')">
+    <button
+      v-on:click="resetShow('Wood', $event)"
+      :class="{ highlight: selected == 'Wood' }"
+    >
       Trä
     </button>
-    <button v-on:click="resetShow('NoHole')">
+    <button
+      v-on:click="resetShow('NoHole', $event)"
+      :class="{ highlight: selected == 'NoHole' }"
+    >
       No Hole
     </button>
   </div>
@@ -30,6 +48,11 @@ import Wood from "@/components/inomhus/persienner/Wood";
 import NoHole from "@/components/inomhus/persienner/NoHole";
 
 export default {
+  data() {
+    return {
+      selected: undefined
+    };
+  },
   methods: {
     resetShow: function(toShow) {
       if (toShow == "16mm") {
@@ -45,6 +68,7 @@ export default {
       } else if (toShow == "NoHole") {
         this.$emit("clicked", NoHole);
       }
+      this.selected = toShow;
     }
   }
 };
