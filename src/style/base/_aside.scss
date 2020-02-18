@@ -35,9 +35,15 @@ div button {
 
 aside button {
   background-color: white;
+  outline: none;
 }
 
 aside button:hover {
   text-decoration-color: #dcd105bf;
   text-decoration: underline;
+}
+
+.highlight {
+  text-decoration: underline;
+  text-decoration-color: #dcd105bf;
 }

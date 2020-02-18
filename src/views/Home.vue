@@ -3,18 +3,7 @@
     <Flash />
     <main>
       <About />
-      <div class="products">
-        <div class="in_products">
-          <section class="in_border">
-            <h2>Inomhus</h2>
-          </section>
-        </div>
-        <div class="out_products">
-          <section class="out_border">
-            <h2>Utomhus</h2>
-          </section>
-        </div>
-      </div>
+      <Products />
       <Suppliers />
       <ContactForm />
     </main>
@@ -27,6 +16,7 @@ import Flash from "@/components/Flash.vue";
 import About from "@/components/About.vue";
 import Suppliers from "@/components/Suppliers.vue";
 import ContactForm from "@/components/ContactForm.vue";
+import Products from "@/components/Products.vue";
 
 export default {
   name: "home",
@@ -34,7 +24,8 @@ export default {
     Flash,
     About,
     Suppliers,
-    ContactForm
+    ContactForm,
+    Products
   }
 };
 </script>
