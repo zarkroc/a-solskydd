@@ -1,6 +1,18 @@
 <template>
   <section class="products">
-    <router-link to="/products/inomhus">Invändinga produkter</router-link>
-    <router-link to="/products/utomhus">Utvändinga produkter</router-link>
+    <div class="in_products">
+      <section class="in_border">
+        <h2>
+          <router-link to="/products/inomhus">Invändinga produkter</router-link>
+        </h2>
+      </section>
+    </div>
+    <div class="out_products">
+      <section class="out_border">
+        <h2>
+          <router-link to="/products/utomhus">Utvändinga produkter</router-link>
+        </h2>
+      </section>
+    </div>
   </section>
 </template>
