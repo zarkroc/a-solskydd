@@ -16,7 +16,12 @@
       rekommenderas modellen Slowrise eftersom den uppfyller EU:s senaste
       säkerhetskrav för rullgardiner.
     </p>
-    <SideImage :image="smallImage1" />
+    <SideImage :image="imageStandard" />
+    <SideImage :image="imageMotor" />
+    <SideImage :image="imageSidodrag" />
+    <SideImage :image="imageMotor" />
+    <SideImage :image="imageSidokanal" />
+    <SideImage :image="imageVita" />
   </div>
 </template>
 
@@ -24,7 +29,12 @@
 import BigImage from "@/components/BigImage";
 import SideImage from "@/components/SideImage";
 import mainImgPath from "@/assets/images/products/inomhus/rullgardin/logo.gif";
-import sideImage1 from "@/assets/images/products/inomhus/plisseer/plisseer_small_1.jpg";
+import rullDuo from "@/assets/images/products/inomhus/rullgardin/rull_duo.jpg";
+import rullMotor from "@/assets/images/products/inomhus/rullgardin/rull_motor.jpg";
+import rullSidodrag from "@/assets/images/products/inomhus/rullgardin/rull_sidodrag.jpg";
+import rullSidokanal from "@/assets/images/products/inomhus/rullgardin/rull_sidokanal.jpg";
+import rullStandard from "@/assets/images/products/inomhus/rullgardin/rull_standard.jpg";
+import rullVita from "@/assets/images/products/inomhus/rullgardin/rull_vitabeslag.jpg";
 
 export default {
   data() {
@@ -33,9 +43,34 @@ export default {
         src: mainImgPath,
         alt: "50mm persienn"
       },
-      smallImage1: {
-        src: sideImage1,
+      imageDuo: {
+        src: rullDuo,
         alt: "50mm persienn",
+        side: "left"
+      },
+      imageMotor: {
+        src: rullMotor,
+        alt: "Rullgardin motor",
+        side: "left"
+      },
+      imageSidodrag: {
+        src: rullSidodrag,
+        alt: "Rullgarding sidodrag",
+        side: "left"
+      },
+      imageSidokanal: {
+        src: rullSidokanal,
+        alt: "Rullgardin sidokanal",
+        side: "left"
+      },
+      imageStandard: {
+        src: rullStandard,
+        alt: "Rullgardin standard",
+        side: "left"
+      },
+      imageVita: {
+        src: rullVita,
+        alt: "Rullgardin vit",
         side: "left"
       }
     };
