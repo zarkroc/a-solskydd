@@ -14,14 +14,11 @@
       föreslagit nya säkerhetskrav för rullgardiner i miljöer där barn vistas
       och Slowrise uppfyller givetvis dessa krav.
     </p>
-    <SideImage :image="smallImage1" />
   </div>
 </template>
 
 <script>
 import BigImage from "@/components/BigImage";
-import SideImage from "@/components/SideImage";
-import sideImage1 from "@/assets/images/products/inomhus/plisseer/plisseer_small_1.jpg";
 import slowRollImage from "@/assets/images/products/inomhus/rullgardin/rull_slowrise.jpg";
 
 export default {
@@ -30,17 +27,11 @@ export default {
       mainImage: {
         src: slowRollImage,
         alt: "50mm persienn"
-      },
-      smallImage1: {
-        src: sideImage1,
-        alt: "50mm persienn",
-        side: "left"
       }
     };
   },
   components: {
-    BigImage,
-    SideImage
+    BigImage
   }
 };
 </script>

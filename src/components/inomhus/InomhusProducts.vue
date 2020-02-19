@@ -17,16 +17,16 @@
       <Plisseer @clicked="showComponent" v-if="showPlisseer" />
 
       <button
-        v-on:click="showComponent('Rullgardin')"
-        :class="{ highlight: selected == 'Rullgardin' }"
+        v-on:click="clickProduct('Rullgardiner')"
+        :class="{ highlight: selected == 'Rullgardiner' }"
       >
         Rullgardiner
       </button>
-      <Rullgardin @clicked="showComponent" v-if="showRullgardin" />
+      <Rullgardiner @clicked="showComponent" v-if="showRullgardiner" />
       <!-- 
       <button v-on:click="showSolfilm = !showSolfilm">Solfilm</button>
       <div v-if="showSolfilm">
-        <Rullgardin @clicked="showComponent" />
+        <Rullgardiner @clicked="showComponent" />
       </div>
       <button v-on:click="showInsectsNet = !showInsectsNet">Insektsnät</button>
       <div v-if="showInsectsNet">
@@ -65,14 +65,14 @@
 import Persienner from "@/components/inomhus/Persienner";
 import Plisseer from "@/components/inomhus/Plisseer";
 import Duetter from "@/components/inomhus/Duetter";
-import Rullgardin from "@/components/inomhus/Rullgardin";
+import Rullgardiner from "@/components/inomhus/Rullgardiner";
 
 export default {
   components: {
     Persienner,
     Plisseer,
     Duetter,
-    Rullgardin
+    Rullgardiner
   },
   data() {
     return {
@@ -80,7 +80,7 @@ export default {
       showProduct: false,
       showPlisseer: false,
       showDuetter: false,
-      showRullgardin: false,
+      showRullgardiner: false,
       dynamicComponent: {
         template: "<p>wheee</p>"
       },
@@ -100,8 +100,6 @@ export default {
       this.dynamicComponent = null;
       this.showProduct = false;
       this["show" + productType] = !this["show" + productType];
-      /* eslint no-console: ["error", { allow: ["warn", "error"] }] */
-      //console.error(event.target);
       this.selected = productType;
     }
   }
