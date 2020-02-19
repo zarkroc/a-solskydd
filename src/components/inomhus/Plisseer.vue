@@ -1,7 +1,6 @@
 <template>
   <div>
     <h2>POLLUX Duette® & Plisségardiner</h2>
-    <BigImage :image="mainImage" />
     <p>
       En elegant gardin med enkel plisséväv eller smart klimatval med dubbel
       cellväv. Plisségardinen finns i en mängd tilltalande tyger, från mer
@@ -11,7 +10,7 @@
       system som kan anpassas till en rad olika fönstertyper. Manövrering med
       handtag, linor eller motor.
     </p>
-    <SideImage :image="smallImage1" />
+    <BigImage :image="mainImage" />
     <h3>Manövrering</h3>
     <p>
       Gardinen manövreras med linor vid frihängande montering, och med handtag
@@ -31,6 +30,7 @@
       ljusdämpning, mörläggning och flamskydd.
     </p>
     <h3>Tyger</h3>
+    <SideImage :image="smallImage1" />
     <p>
       Plisséväv finns i ett brett urval av färger och mönster – såväl mer
       genomlysande som helt mörkläggande. Väven finns även med flamskyddande och
