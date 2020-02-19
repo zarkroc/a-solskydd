@@ -11,7 +11,11 @@
           <router-link to="/#about">Om</router-link>
         </li>
         <li>
-          <router-link to="/products">Produkter</router-link>
+          <router-link to="#" aria-label="submenu">Produkter</router-link>
+          <ul class="dropdown">
+            <li><router-link to="/products/inomhus">Invändinga</router-link></li>
+            <li><router-link to="/products/utomhus">Utvändinga</router-link></li>
+          </ul>
         </li>
         <li>
           <a href="#">Referenser</a>

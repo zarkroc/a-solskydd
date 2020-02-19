@@ -29,20 +29,43 @@ nav ul {
 nav ul {
     display: flex;
     flex-wrap: wrap;
-}
-
-nav ul li {
-    list-style: none;
-    margin: 0;
-    padding: 1em;
-}
-
-nav li a {
-    color: #13144ebd;
-    font-size: 1.2em;
-    text-decoration: none;
-    padding: 0.5em;
-    font-weight: bold;
+    li {
+        list-style: none;
+        margin: 0;
+        padding: 1em;
+        position: relative;
+        z-index: 1;
+        a {
+            color: #13144ebd;
+            font-size: 1.2em;
+            text-decoration: none;
+            padding: 0.5em;
+            font-weight: bold;
+        }
+        ul {
+            background: white;
+            visibility: hidden;
+            opacity: 0;
+            min-width: 5rem;
+            position: absolute;
+            transition: all 0.5s ease;
+            margin-top: 1rem;
+            left: 0;
+            display: none;
+        }
+        &:hover > ul,
+        &:focus-within > ul,
+        & ul:hover,
+        & ul:focus {
+            visibility: visible;
+            opacity: 1;
+            display: block
+        }
+        ul li {
+            clear: both;
+            width: 100%;
+        }
+    }
 }
 
 nav a:hover,
