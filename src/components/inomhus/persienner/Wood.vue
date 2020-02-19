@@ -1,5 +1,5 @@
 <template>
-  <section class="product-container">
+  <section>
     <h2>Träpersiener</h2>
     <p>
       Ett exklusivt insynsskydd, tillverkat av Scandinavian Designer Blinds

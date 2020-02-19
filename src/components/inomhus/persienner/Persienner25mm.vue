@@ -1,5 +1,5 @@
 <template>
-  <section class="product-container">
+  <section>
     <h2>PERSIENN Roulett</h2>
     <p>
       Roulettpersienner är perfekt i rummen där du tillbringar mycket tid – du

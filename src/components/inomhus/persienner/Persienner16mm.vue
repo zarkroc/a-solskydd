@@ -1,5 +1,5 @@
 <template>
-  <section class="product-container">
+  <section>
     <h2>16mm Persienn</h2>
     <p>
       16mm persiennen &auml;r framtagen f&ouml;r montering i f&ouml;nster

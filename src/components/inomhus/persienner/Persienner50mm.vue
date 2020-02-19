@@ -1,5 +1,5 @@
 <template>
-  <section class="product-container">
+  <section>
     <h2>PERSIENN Classic 50</h2>
     <p>
       Classic 50 är en persienn avsedd för 50 mm lameller i aluminium. Den

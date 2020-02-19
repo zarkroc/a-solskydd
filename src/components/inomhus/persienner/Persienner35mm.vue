@@ -1,5 +1,5 @@
 <template>
-  <section class="product-container">
+  <section>
     <h2>35-mm PERSIENNEN</h2>
     <p>
       En populär persien med 35-mm lameller, som är gjorda av en speciell
