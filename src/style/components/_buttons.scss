@@ -1,0 +1,36 @@
+.contact li,
+.contact_form input[type="submit"] {
+    list-style: none;
+    text-align: center;
+    background-color: white
+}
+
+.contact li a,
+.contact_form input[type="submit"] {
+    text-decoration: none;
+    color: #13144ebd;
+    display: block;
+    font-size: 1.2em;
+    padding: 0.5em;
+    font-weight: bold;
+    font-family: 'Doppio One', sans-serif;
+    border: 3px solid #dcd105bf;
+    border-radius: 28px;
+    line-height: 1em;
+    width: 8em;
+}
+
+.contact li a:hover,
+.contact_form input[type="submit"]:hover {
+    text-decoration: none;
+    background-color: #000836c2;
+    border-radius: 28px;
+    color: white;
+    padding: 0.62em;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.contact li:hover,
+.contact_form input[type="submit"]:hover {
+    border: none;
+}
