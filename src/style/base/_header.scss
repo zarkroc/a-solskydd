@@ -6,6 +6,7 @@ header {
     padding-top: 1em;
     background-color: #ffffff70;
     font-family: 'Doppio One', sans-serif;
+    font-size: 1.6vw;
 }
 
 header > * {
@@ -25,6 +26,11 @@ header > * {
 nav ul {
     flex: 1 50px;
 } */
+
+nav label,
+#hamburger {
+    display: none;
+}
 
 nav ul {
     display: flex;
