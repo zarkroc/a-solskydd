@@ -47,7 +47,7 @@
       <Duetter @clicked="showComponent" v-if="showDuetter" />
     </aside>
     <section class="product-container">
-        <component v-bind:is="dynamicComponent" v-if="showProduct"></component>
+      <component v-bind:is="dynamicComponent" v-if="showProduct"></component>
       <div class="in_products" v-else>
         <section class="in_border">
           <h2>
