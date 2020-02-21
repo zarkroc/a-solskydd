@@ -1,0 +1,29 @@
+@media screen and (max-width: 950px) {
+    header {
+        font-size: 2.5vw;
+    }
+
+    nav {
+        label {
+            display: inline-block;
+            color: #13144ebd;
+            font-style: normal;
+            font-size: 2em;
+            padding: 10px;
+        }
+    }
+
+    /* Break down menu items into vertical */
+    nav ul li {
+        display: block;
+        border-top: 1px solid #333;
+    }
+
+    /* Toggle show/hide menu on checkbox click */
+    nav ul {
+        display: none;
+    }
+    nav input:checked ~ ul {
+        display: block;
+    }
+}
