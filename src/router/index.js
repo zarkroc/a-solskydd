@@ -3,7 +3,7 @@ import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
 import Products from "@/components/Products";
 import Inomhus from "@/components/inomhus/InomhusProducts";
-import Persienner from "@/components/inomhus/Persienner";
+import Utomhus from "@/components/utomhus/UtomhusProducts";
 
 Vue.use(VueRouter);
 
@@ -24,9 +24,9 @@ const routes = [
     component: Inomhus
   },
   {
-    path: "/products/inomhus/persienner",
-    name: "persienner",
-    component: Persienner
+    path: "/products/utomhus",
+    name: "utomhus",
+    component: Utomhus
   },
   {
     path: "/about",
