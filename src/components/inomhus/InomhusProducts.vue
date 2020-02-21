@@ -23,21 +23,13 @@
         Rullgardiner
       </button>
       <Rullgardiner @clicked="showComponent" v-if="showRullgardiner" />
-      <!-- 
-      <button v-on:click="showSolfilm = !showSolfilm">Solfilm</button>
-      <div v-if="showSolfilm">
-        <Rullgardiner @clicked="showComponent" />
-      </div>
-      <button v-on:click="showInsectsNet = !showInsectsNet">Insektsnät</button>
-      <div v-if="showInsectsNet">
-        <InsectsNet @clicked="showComponent" />
-      </div>
-      <button v-on:click="showLamellGardiner = !showLamellGardiner">
+      <button
+        v-on:click="showComponent('LamellGardiner')"
+        :class="{ highlight: selected == 'LamellGardiner' }"
+      >
         Lamellgardiner
       </button>
-      <div v-if="showLamellGardiner">
-        <LamellGardiner @clicked="showComponent" />
-      </div> -->
+      <LamellGardiner @clicked="showComponent" v-if="showLamellGardiner" />
       <button
         v-on:click="showComponent('Duetter')"
         :class="{ highlight: selected == 'Duetter' }"
@@ -64,13 +56,15 @@ import Persienner from "@/components/inomhus/Persienner";
 import Plisseer from "@/components/inomhus/Plisseer";
 import Duetter from "@/components/inomhus/Duetter";
 import Rullgardiner from "@/components/inomhus/Rullgardiner";
+import LamellGardiner from "@/components/inomhus/LamellGardiner";
 
 export default {
   components: {
     Persienner,
     Plisseer,
     Duetter,
-    Rullgardiner
+    Rullgardiner,
+    LamellGardiner
   },
   data() {
     return {
@@ -79,6 +73,7 @@ export default {
       showPlisseer: false,
       showDuetter: false,
       showRullgardiner: false,
+      showLamellGardiner: false,
       dynamicComponent: {
         template: "<p>wheee</p>"
       },
