@@ -17,16 +17,9 @@
             <br />Gubbängsvägen 90 <br />122 45 Enskede
           </p>
         </section>
-        <section class="open">
-          <h3><i class="fas fa-door-open"></i> Öppettider</h3>
-          <p>
-            Butiken öppnar endast efter överenskommelse.
-            <br />Vänligen ring för att boka tid.
-          </p>
-        </section>
       </section>
 
-      <div class="social">
+      <section class="social">
         <h2><i class="fas fa-user-friends"></i> Sociala medier</h2>
         <a class="icon" href="#">
           <i class="fab fa-facebook fa-3x"></i>
@@ -35,7 +28,7 @@
           <i class="fab fa-instagram fa-3x"></i>
         </a>
         <br />
-      </div>
+      </section>
     </div>
     <p>Copyright &copy; A-SOLSKYDD AB 2019</p>
   </footer>

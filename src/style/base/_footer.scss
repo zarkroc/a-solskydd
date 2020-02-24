@@ -1,7 +1,6 @@
 footer {
     margin: 0;
     padding-top: 3em;
-    margin-top: auto;
     background-color: #151644;
     color: white;
 }
@@ -10,6 +9,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-flow: wrap;
 }
 
 .icon {

@@ -1,5 +1,5 @@
 <template>
-  <section class="product-container">
+  <section>
     <h2>No hole persienn</h2>
     <p>
       Hålen i persiennlamellerna är osynliga vilket blockerar ljusinsläpp.
