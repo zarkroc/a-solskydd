@@ -7,13 +7,15 @@
     </div>
     <nav>
       <label for="hamburger">&#9776;</label>
-      <input type="checkbox" id="hamburger"/>
+      <input type="checkbox" id="hamburger" />
       <ul>
         <li>
           <router-link to="/#about">Om</router-link>
         </li>
         <li>
-          <router-link to="#" aria-label="submenu">Produkter &#9662;</router-link>
+          <router-link to="#" aria-label="submenu"
+            >Produkter &#9662;</router-link
+          >
           <ul class="dropdown">
             <li>
               <router-link to="/products/inomhus">Invändinga</router-link>
