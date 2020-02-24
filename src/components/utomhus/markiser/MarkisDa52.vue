@@ -8,7 +8,7 @@
       Frontprofil och valsrör är också förstärkta. Takprofil som skyddar duk och
       valsrör ingår.
     </p>
-    <BigImage :image="mainImage" />
+    <BigImage :image="main" />
     <h3>Manöverering</h3>
     <p>
       Utvändig manövrering med vev är standard. Som tillval finns manövrering
@@ -37,21 +37,12 @@
       ytterligare 10 färger, matchade för att passa ihop med de vanligast
       förekommande husfärger och fasader.
     </p>
-    <SideImage :image="da22" />
-    <SideImage :image="da32" />
-    <SideImage :image="standardProfile" />
-    <SideImage :image="designProfile" />
   </div>
 </template>
 
 <script>
 import BigImage from "@/components/BigImage";
-import SideImage from "@/components/SideImage";
 import mainImage from "@/assets/images/products/utomhus/markis/fonstermarkis_22.jpg";
-import da22Image from "@/assets/images/products/utomhus/markis/da22.jpg";
-import da32Image from "@/assets/images/products/utomhus/markis/da32.jpg";
-import designProfileImage from "@/assets/images/products/utomhus/markis/design_profil.jpg";
-import standardProfileImage from "@/assets/images/products/utomhus/markis/standard_profil.jpg";
 
 export default {
   data() {
@@ -59,32 +50,11 @@ export default {
       main: {
         src: mainImage,
         alt: "Fönstermarkis"
-      },
-      da22: {
-        src: da22Image,
-        alt: "Fönstermarkis DA 22",
-        side: "left"
-      },
-      da32: {
-        src: da32Image,
-        alt: "Fönstermarkis DA 32",
-        side: "left"
-      },
-      designProfile: {
-        src: designProfileImage,
-        alt: "Design profil",
-        side: "left"
-      },
-      standardProfile: {
-        src: standardProfileImage,
-        alt: "Standard profil",
-        side: "left"
       }
     };
   },
   components: {
-    BigImage,
-    SideImage
+    BigImage
   }
 };
 </script>
