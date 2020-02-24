@@ -5,7 +5,7 @@ header {
     margin: 0;
     padding-top: 1em;
     background-color: #ffffff70;
-    font-family: 'Doppio One', sans-serif;
+    font-family: $headingFont;
     font-size: 1.6vw;
 }
 
@@ -77,8 +77,7 @@ nav ul {
 
 nav a:hover,
 a:hover {
-    text-decoration: underline;
-    text-decoration-color: #dcd105bf;
+    color: #dcd105bf;
 
 }
 /*
