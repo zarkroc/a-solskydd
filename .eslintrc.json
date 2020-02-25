@@ -1,0 +1,24 @@
+{
+  "root": true,
+  "env": {
+    "cypress/globals": true,
+    "node": true,
+    "browser": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:prettier/recommended",
+    "plugin:cypress/recommended",
+    "plugin:vue/essential",
+    "plugin:prettier/recommended",
+    "@vue/prettier"
+  ],
+  "parserOptions": {
+    "parser": "babel-eslint"
+  },
+  "plugins": ["cypress", "vue"],
+  "rules": {
+    "semi": ["error", "always"],
+    "no-console": "off"
+  }
+}
