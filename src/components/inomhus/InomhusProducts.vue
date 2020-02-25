@@ -43,7 +43,7 @@
       <div class="in_products" v-else>
         <section class="in_border">
           <h2>
-            Invändinga produkter
+            Invändiga produkter
           </h2>
         </section>
       </div>
@@ -52,11 +52,11 @@
 </template>
 
 <script>
-import Persienner from "@/components/inomhus/Persienner";
-import Plisseer from "@/components/inomhus/Plisseer";
-import Duetter from "@/components/inomhus/Duetter";
-import Rullgardiner from "@/components/inomhus/Rullgardiner";
-import LamellGardiner from "@/components/inomhus/LamellGardiner";
+import Persienner from '@/components/inomhus/Persienner';
+import Plisseer from '@/components/inomhus/Plisseer';
+import Duetter from '@/components/inomhus/Duetter';
+import Rullgardiner from '@/components/inomhus/Rullgardiner';
+import LamellGardiner from '@/components/inomhus/LamellGardiner';
 
 export default {
   components: {
@@ -64,7 +64,7 @@ export default {
     Plisseer,
     Duetter,
     Rullgardiner,
-    LamellGardiner
+    LamellGardiner,
   },
   data() {
     return {
@@ -75,16 +75,16 @@ export default {
       showRullgardiner: false,
       showLamellGardiner: false,
       dynamicComponent: {
-        template: "<p>wheee</p>"
+        template: '<p>wheee</p>',
       },
-      selected: undefined
+      selected: undefined,
     };
   },
   methods: {
     showComponent(comp) {
       this.showProduct = true;
       this.dynamicComponent = comp;
-      if (comp == "Plisseer") {
+      if (comp == 'Plisseer') {
         this.selected = comp;
         this.showPersienner = false;
       }
@@ -92,9 +92,9 @@ export default {
     clickProduct: function(productType) {
       this.dynamicComponent = null;
       this.showProduct = false;
-      this["show" + productType] = !this["show" + productType];
+      this['show' + productType] = !this['show' + productType];
       this.selected = productType;
-    }
-  }
+    },
+  },
 };
 </script>
