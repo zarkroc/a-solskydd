@@ -18,10 +18,10 @@
           >
           <ul class="dropdown">
             <li>
-              <router-link to="/products/inomhus">Invändinga</router-link>
+              <router-link to="/products/inomhus">Invändiga</router-link>
             </li>
             <li>
-              <router-link to="/products/utomhus">Utvändinga</router-link>
+              <router-link to="/products/utomhus">Utvändiga</router-link>
             </li>
           </ul>
         </li>
@@ -47,21 +47,21 @@ export default {
     return {
       showNavbar: true,
       lastScrollPosition: 0,
-      scrollValue: 0
+      scrollValue: 0,
     };
   },
 
   mounted() {
     this.lastScrollPosition = window.pageYOffset;
-    window.addEventListener("scroll", this.onScroll);
-    const viewportMeta = document.createElement("meta");
-    viewportMeta.name = "viewport";
-    viewportMeta.content = "width=device-width, initial-scale=1";
+    window.addEventListener('scroll', this.onScroll);
+    const viewportMeta = document.createElement('meta');
+    viewportMeta.name = 'viewport';
+    viewportMeta.content = 'width=device-width, initial-scale=1';
     document.head.appendChild(viewportMeta);
   },
 
   beforeDestroy() {
-    window.removeEventListener("scroll", this.onScroll);
+    window.removeEventListener('scroll', this.onScroll);
   },
 
   methods: {
@@ -74,7 +74,7 @@ export default {
       }
       this.showNavbar = window.pageYOffset < this.lastScrollPosition;
       this.lastScrollPosition = window.pageYOffset;
-    }
-  }
+    },
+  },
 };
 </script>
