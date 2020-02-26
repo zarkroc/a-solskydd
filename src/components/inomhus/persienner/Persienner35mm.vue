@@ -24,12 +24,12 @@ export default {
     return {
       mainImage: {
         src: mainImgPath,
-        alt: "35mm persienn"
-      }
+        alt: "35mm persienn",
+      },
     };
   },
   components: {
-    BigImage
-  }
+    BigImage,
+  },
 };
 </script>

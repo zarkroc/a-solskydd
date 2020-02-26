@@ -41,43 +41,43 @@ export default {
     return {
       mainImage: {
         src: mainImgPath,
-        alt: "50mm persienn"
+        alt: "50mm persienn",
       },
       imageDuo: {
         src: rullDuo,
         alt: "50mm persienn",
-        side: "left"
+        side: "left",
       },
       imageMotor: {
         src: rullMotor,
         alt: "Rullgardin motor",
-        side: "left"
+        side: "left",
       },
       imageSidodrag: {
         src: rullSidodrag,
         alt: "Rullgarding sidodrag",
-        side: "left"
+        side: "left",
       },
       imageSidokanal: {
         src: rullSidokanal,
         alt: "Rullgardin sidokanal",
-        side: "left"
+        side: "left",
       },
       imageStandard: {
         src: rullStandard,
         alt: "Rullgardin standard",
-        side: "left"
+        side: "left",
       },
       imageVita: {
         src: rullVita,
         alt: "Rullgardin vit",
-        side: "left"
-      }
+        side: "left",
+      },
     };
   },
   components: {
     BigImage,
-    SideImage
-  }
+    SideImage,
+  },
 };
 </script>

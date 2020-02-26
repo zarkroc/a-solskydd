@@ -16,7 +16,7 @@
 export default {
   name: "Suppliers",
   props: {
-    msg: String
-  }
+    msg: String,
+  },
 };
 </script>

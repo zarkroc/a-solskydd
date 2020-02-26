@@ -69,33 +69,33 @@ export default {
     return {
       main: {
         src: mainImage,
-        alt: "Fönstermarkis"
+        alt: "Fönstermarkis",
       },
       da22: {
         src: da22Image,
         alt: "Fönstermarkis DA 22",
-        side: "left"
+        side: "left",
       },
       da32: {
         src: da32Image,
         alt: "Fönstermarkis DA 32",
-        side: "left"
+        side: "left",
       },
       designProfile: {
         src: designProfileImage,
         alt: "Design profil",
-        side: "left"
+        side: "left",
       },
       standardProfile: {
         src: standardProfileImage,
         alt: "Standard profil",
-        side: "left"
-      }
+        side: "left",
+      },
     };
   },
   components: {
     BigImage,
-    SideImage
-  }
+    SideImage,
+  },
 };
 </script>

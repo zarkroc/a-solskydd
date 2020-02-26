@@ -24,12 +24,12 @@ export default {
     return {
       mainImage: {
         src: slowRollImage,
-        alt: "Balkongskydd i väv"
-      }
+        alt: "Balkongskydd i väv",
+      },
     };
   },
   components: {
-    BigImage
-  }
+    BigImage,
+  },
 };
 </script>

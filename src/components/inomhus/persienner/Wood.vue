@@ -23,12 +23,12 @@ export default {
     return {
       mainImage: {
         src: mainImgPath,
-        alt: "50mm persienn"
-      }
+        alt: "50mm persienn",
+      },
     };
   },
   components: {
-    BigImage
-  }
+    BigImage,
+  },
 };
 </script>

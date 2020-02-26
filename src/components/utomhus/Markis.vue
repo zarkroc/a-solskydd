@@ -36,7 +36,7 @@ import MarkisMt64 from "@/components/utomhus/markiser/MarkisMt64";
 export default {
   data() {
     return {
-      selected: undefined
+      selected: undefined,
     };
   },
   methods: {
@@ -51,7 +51,7 @@ export default {
         this.$emit("clicked", MarkisMt64);
       }
       this.selected = toShow;
-    }
-  }
+    },
+  },
 };
 </script>

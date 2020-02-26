@@ -22,7 +22,7 @@ import MaxiBalkongskydd from "@/components/utomhus/Balkongskydd/MaxiBalkongskydd
 export default {
   data() {
     return {
-      selected: undefined
+      selected: undefined,
     };
   },
   methods: {
@@ -33,7 +33,7 @@ export default {
         this.$emit("clicked", MaxiBalkongskydd);
       }
       this.selected = toShow;
-    }
-  }
+    },
+  },
 };
 </script>

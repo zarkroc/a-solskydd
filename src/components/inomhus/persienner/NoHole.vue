@@ -21,16 +21,16 @@ export default {
     return {
       mainImage: {
         src: mainImgPath,
-        alt: "Svart trä persienn"
+        alt: "Svart trä persienn",
       },
       secondaryImage: {
         src: secondaryImgPath,
-        alt: "Röd trä persienn"
-      }
+        alt: "Röd trä persienn",
+      },
     };
   },
   components: {
-    BigImage
-  }
+    BigImage,
+  },
 };
 </script>

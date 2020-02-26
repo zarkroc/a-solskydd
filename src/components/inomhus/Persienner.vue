@@ -50,7 +50,7 @@ import NoHole from "@/components/inomhus/persienner/NoHole";
 export default {
   data() {
     return {
-      selected: undefined
+      selected: undefined,
     };
   },
   methods: {
@@ -69,7 +69,7 @@ export default {
         this.$emit("clicked", NoHole);
       }
       this.selected = toShow;
-    }
-  }
+    },
+  },
 };
 </script>

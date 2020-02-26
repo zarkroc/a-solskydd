@@ -22,7 +22,7 @@ import SlowRise from "@/components/inomhus/SlowRise";
 export default {
   data() {
     return {
-      selected: undefined
+      selected: undefined,
     };
   },
   methods: {
@@ -33,7 +33,7 @@ export default {
         this.$emit("clicked", SlowRise);
       }
       this.selected = toShow;
-    }
-  }
+    },
+  },
 };
 </script>

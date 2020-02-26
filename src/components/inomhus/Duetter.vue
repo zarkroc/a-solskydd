@@ -27,12 +27,12 @@ export default {
       smallImage1: {
         src: sideImage1,
         alt: "50mm persienn",
-        side: "left"
-      }
+        side: "left",
+      },
     };
   },
   components: {
-    SideImage
-  }
+    SideImage,
+  },
 };
 </script>

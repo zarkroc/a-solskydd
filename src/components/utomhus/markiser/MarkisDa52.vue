@@ -49,12 +49,12 @@ export default {
     return {
       main: {
         src: mainImage,
-        alt: "Fönstermarkis"
-      }
+        alt: "Fönstermarkis",
+      },
     };
   },
   components: {
-    BigImage
-  }
+    BigImage,
+  },
 };
 </script>

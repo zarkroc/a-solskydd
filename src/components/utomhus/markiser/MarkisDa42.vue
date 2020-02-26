@@ -59,33 +59,33 @@ export default {
     return {
       main: {
         src: mainImage,
-        alt: "Fönstermarkis"
+        alt: "Fönstermarkis",
       },
       armfasteDa42: {
         src: armfasteDa42,
         alt: "Armfäste DA 42",
-        side: "left"
+        side: "left",
       },
       armfasteDa45: {
         src: armfasteDa45,
         alt: "Armfäste DA 45",
-        side: "left"
+        side: "left",
       },
       designProfile: {
         src: designProfileImage,
         alt: "Design profil",
-        side: "left"
+        side: "left",
       },
       standardProfile: {
         src: standardProfileImage,
         alt: "Standard profil",
-        side: "left"
-      }
+        side: "left",
+      },
     };
   },
   components: {
     BigImage,
-    SideImage
-  }
+    SideImage,
+  },
 };
 </script>

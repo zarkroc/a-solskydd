@@ -51,16 +51,16 @@ export default {
     return {
       mainImage: {
         src: mainImgPath,
-        alt: "50mm persienn"
+        alt: "50mm persienn",
       },
       secondaryImage: {
         src: secondaryImgPath,
-        alt: "lameller"
-      }
+        alt: "lameller",
+      },
     };
   },
   components: {
-    BigImage
-  }
+    BigImage,
+  },
 };
 </script>

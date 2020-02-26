@@ -95,12 +95,12 @@ export default {
     return {
       mainImage: {
         src: mainImgPath,
-        alt: "25mm persienn"
-      }
+        alt: "25mm persienn",
+      },
     };
   },
   components: {
-    BigImage
-  }
+    BigImage,
+  },
 };
 </script>

@@ -19,12 +19,12 @@ export default {
     return {
       image: {
         src: imgPath,
-        alt: "16mm persienn"
-      }
+        alt: "16mm persienn",
+      },
     };
   },
   components: {
-    BigImage
-  }
+    BigImage,
+  },
 };
 </script>

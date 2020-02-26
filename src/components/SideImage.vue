@@ -5,8 +5,8 @@
 export default {
   props: {
     image: {
-      type: Object
-    }
-  }
+      type: Object,
+    },
+  },
 };
 </script>

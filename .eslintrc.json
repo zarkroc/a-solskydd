@@ -19,6 +19,7 @@
   "plugins": ["cypress", "vue"],
   "rules": {
     "semi": ["error", "always"],
-    "no-console": "off"
+    "no-console": "off",
+    "singleQuote": false
   }
 }

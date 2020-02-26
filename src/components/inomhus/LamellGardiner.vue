@@ -27,18 +27,18 @@ export default {
     return {
       mainImage: {
         src: mainImgPath,
-        alt: "50mm persienn"
+        alt: "50mm persienn",
       },
       smallImage1: {
         src: sideImage1,
         alt: "50mm persienn",
-        side: "left"
-      }
+        side: "left",
+      },
     };
   },
   components: {
     BigImage,
-    SideImage
-  }
+    SideImage,
+  },
 };
 </script>

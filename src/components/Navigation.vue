@@ -53,15 +53,15 @@ export default {
 
   mounted() {
     this.lastScrollPosition = window.pageYOffset;
-    window.addEventListener('scroll', this.onScroll);
-    const viewportMeta = document.createElement('meta');
-    viewportMeta.name = 'viewport';
-    viewportMeta.content = 'width=device-width, initial-scale=1';
+    window.addEventListener("scroll", this.onScroll);
+    const viewportMeta = document.createElement("meta");
+    viewportMeta.name = "viewport";
+    viewportMeta.content = "width=device-width, initial-scale=1";
     document.head.appendChild(viewportMeta);
   },
 
   beforeDestroy() {
-    window.removeEventListener('scroll', this.onScroll);
+    window.removeEventListener("scroll", this.onScroll);
   },
 
   methods: {

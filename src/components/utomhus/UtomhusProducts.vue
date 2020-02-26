@@ -36,7 +36,7 @@ import Markis from "@/components/utomhus/Markis";
 export default {
   components: {
     Balkongskydd,
-    Markis
+    Markis,
   },
   data() {
     return {
@@ -47,9 +47,9 @@ export default {
       showRullgardiner: false,
       showLamellGardiner: false,
       dynamicComponent: {
-        template: "<p>wheee</p>"
+        template: "<p>wheee</p>",
       },
-      selected: undefined
+      selected: undefined,
     };
   },
   methods: {
@@ -66,7 +66,7 @@ export default {
       this.showProduct = false;
       this["show" + productType] = !this["show" + productType];
       this.selected = productType;
-    }
-  }
+    },
+  },
 };
 </script>

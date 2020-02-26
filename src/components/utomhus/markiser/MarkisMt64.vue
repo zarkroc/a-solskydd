@@ -43,40 +43,40 @@
 </template>
 
 <script>
-import BigImage from '@/components/BigImage';
-import SideImage from '@/components/SideImage';
-import mainImage from '@/assets/images/products/utomhus/markis/markisolette_01.jpg';
-import mt64KassettImage from '@/assets/images/products/utomhus/markis/mt64_kassett.jpg';
-import mt64Front from '@/assets/images/products/utomhus/markis/mt64_frontprofil.jpg';
-import mt74KassettImage from '@/assets/images/products/utomhus/markis/mt74_kassett.jpg';
-import mt74ProfilImage from '@/assets/images/products/utomhus/markis/mt74_frontprofil.jpg';
+import BigImage from "@/components/BigImage";
+import SideImage from "@/components/SideImage";
+import mainImage from "@/assets/images/products/utomhus/markis/markisolette_01.jpg";
+import mt64KassettImage from "@/assets/images/products/utomhus/markis/mt64_kassett.jpg";
+import mt64Front from "@/assets/images/products/utomhus/markis/mt64_frontprofil.jpg";
+import mt74KassettImage from "@/assets/images/products/utomhus/markis/mt74_kassett.jpg";
+import mt74ProfilImage from "@/assets/images/products/utomhus/markis/mt74_frontprofil.jpg";
 
 export default {
   data() {
     return {
       main: {
         src: mainImage,
-        alt: 'Fönstermarkis',
+        alt: "Fönstermarkis",
       },
       mt64Kassett: {
         src: mt64KassettImage,
-        alt: 'MT 64 Kassett',
-        side: 'left',
+        alt: "MT 64 Kassett",
+        side: "left",
       },
       mt64Front: {
         src: mt64Front,
-        alt: 'MT 64 profil',
-        side: 'left',
+        alt: "MT 64 profil",
+        side: "left",
       },
       mt74Kassett: {
         src: mt74KassettImage,
-        alt: 'MT 74 kassett',
-        side: 'left',
+        alt: "MT 74 kassett",
+        side: "left",
       },
       mt74Profil: {
         src: mt74ProfilImage,
-        alt: 'MT 74 profil',
-        side: 'left',
+        alt: "MT 74 profil",
+        side: "left",
       },
     };
   },

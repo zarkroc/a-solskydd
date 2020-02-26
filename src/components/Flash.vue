@@ -14,7 +14,7 @@
 export default {
   name: "Flash",
   props: {
-    msg: String
-  }
+    msg: String,
+  },
 };
 </script>

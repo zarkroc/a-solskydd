@@ -48,18 +48,18 @@ export default {
     return {
       mainImage: {
         src: slowRollImage,
-        alt: "Balkongskydd i väv"
+        alt: "Balkongskydd i väv",
       },
       mediumBeige: {
         src: mediumBeigeImage,
         alt: "Balkongskydd medium beige",
-        side: "left"
-      }
+        side: "left",
+      },
     };
   },
   components: {
     BigImage,
-    SideImage
-  }
+    SideImage,
+  },
 };
 </script>
