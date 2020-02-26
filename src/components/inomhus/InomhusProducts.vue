@@ -37,6 +37,27 @@
         Duetter
       </button>
       <Duetter @clicked="showComponent" v-if="showDuetter" />
+      <button
+        v-on:click="showComponent('Solfilm')"
+        :class="{ highlight: selected == 'Solfilm' }"
+      >
+        Solfilm
+      </button>
+      <Solfilm @clicked="showComponent" v-if="showSolfilm" />
+      <button
+        v-on:click="showComponent('SecurityFilm')"
+        :class="{ highlight: selected == 'SecurityFilm' }"
+      >
+        Säkerhetsfilm
+      </button>
+      <SecurityFilm @clicked="showComponent" v-if="showSecurityFilm" />
+      <button
+        v-on:click="showComponent('Insectnet')"
+        :class="{ highlight: selected == 'Insectnet' }"
+      >
+        Insektsnät
+      </button>
+      <Insectnet @clicked="showComponent" v-if="showInsectnet" />
     </aside>
     <section class="product-container">
       <component v-bind:is="dynamicComponent" v-if="showProduct"></component>
@@ -57,6 +78,9 @@ import Plisseer from "@/components/inomhus/Plisseer";
 import Duetter from "@/components/inomhus/Duetter";
 import Rullgardiner from "@/components/inomhus/Rullgardiner";
 import LamellGardiner from "@/components/inomhus/LamellGardiner";
+import Solfilm from "@/components/inomhus/Solfilm";
+import SecurityFilm from "@/components/inomhus/SecurityFilm";
+import Insectnet from "@/components/inomhus/Insectnet";
 
 export default {
   components: {
@@ -65,6 +89,9 @@ export default {
     Duetter,
     Rullgardiner,
     LamellGardiner,
+    Solfilm,
+    SecurityFilm,
+    Insectnet,
   },
   data() {
     return {
@@ -74,6 +101,9 @@ export default {
       showDuetter: false,
       showRullgardiner: false,
       showLamellGardiner: false,
+      showSolfilm: false,
+      showSecurityFilm: false,
+      showInsectnet: false,
       dynamicComponent: {
         template: "<p>wheee</p>",
       },
