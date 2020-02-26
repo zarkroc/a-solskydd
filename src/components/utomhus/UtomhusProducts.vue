@@ -15,6 +15,13 @@
         Markiser
       </button>
       <Markis @clicked="showComponent" v-if="showMarkis" />
+      <button
+        v-on:click="clickProduct('Terassmarkis')"
+        :class="{ highlight: selected == 'Terassmarkis' }"
+      >
+        Terassmarkiser
+      </button>
+      <Terassmarkis @clicked="showComponent" v-if="showTerassmarkis" />
     </aside>
     <section class="product-container">
       <component v-bind:is="dynamicComponent" v-if="showProduct"></component>
@@ -32,17 +39,20 @@
 <script>
 import Balkongskydd from "@/components/utomhus/Balkongskydd";
 import Markis from "@/components/utomhus/Markis";
+import Terassmarkis from "@/components/utomhus/Terassmarkis";
 
 export default {
   components: {
     Balkongskydd,
     Markis,
+    Terassmarkis,
   },
   data() {
     return {
       showBalkongskydd: false,
       showProduct: false,
       showMarkis: false,
+      showTerassmarkis: false,
       showDuetter: false,
       showRullgardiner: false,
       showLamellGardiner: false,
