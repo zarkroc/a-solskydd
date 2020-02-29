@@ -5,7 +5,7 @@
         v-on:click="clickProduct('Persienner')"
         :class="{ highlight: selected == 'Persienner' }"
       >
-        Persienner
+        Persienner &#9662;
       </button>
       <Persienner @clicked="showComponent" v-if="showPersienner" />
       <button
@@ -20,7 +20,7 @@
         v-on:click="clickProduct('Rullgardiner')"
         :class="{ highlight: selected == 'Rullgardiner' }"
       >
-        Rullgardiner
+        Rullgardiner &#9662;
       </button>
       <Rullgardiner @clicked="showComponent" v-if="showRullgardiner" />
       <button

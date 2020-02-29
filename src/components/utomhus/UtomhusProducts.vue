@@ -5,21 +5,21 @@
         v-on:click="clickProduct('Balkongskydd')"
         :class="{ highlight: selected == 'Balkongskydd' }"
       >
-        Balkongskydd
+        Balkongskydd &#9662;
       </button>
       <Balkongskydd @clicked="showComponent" v-if="showBalkongskydd" />
       <button
         v-on:click="clickProduct('Markis')"
         :class="{ highlight: selected == 'Markis' }"
       >
-        Markiser
+        Markiser &#9662;
       </button>
       <Markis @clicked="showComponent" v-if="showMarkis" />
       <button
         v-on:click="clickProduct('Terassmarkis')"
         :class="{ highlight: selected == 'Terassmarkis' }"
       >
-        Terassmarkiser
+        Terassmarkiser &#9662;
       </button>
       <Terassmarkis @clicked="showComponent" v-if="showTerassmarkis" />
     </aside>
