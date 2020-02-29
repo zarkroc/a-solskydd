@@ -1,94 +1,70 @@
 <template>
   <div>
-    <h2>Fönstermarkiser DA22 & DA32</h2>
+    <h2>Terrassmarkis FA62 & FA64</h2>
     <p>
-      DA22 och DA32 är moderna, kompakta och stilrena markiser som passar de
-      flesta byggnader. DA32 är kompletterad med en elegant aluminiumkassett som
-      skyddar markisduken mot regn och smuts. Fallarmarna har justerbar
-      fjäderspänning för rätt dukspänning. Invändig eller utvändig manövrering
-      med polyesterband och som tillval kan markisen motoriseras.
+      FA 60 terrassmarkis är en mycket attraktiv helkassett som ger ett
+      stilfullt intryck och lämpar sig väl för exempelvis terrasser, balkonger,
+      butiker, kiosker och restauranger. Utmärkande drag för FA 60 serien är den
+      designade helkassetten som skyddar duk och mekanism mot regn och smuts. De
+      rejäla vikarmarna med Dyneema® band och starka fjädrar garanterar en bra
+      dukspänning.
     </p>
     <BigImage :image="main" />
-    <h3>DA22</h3>
+    <h3>Manövrering</h3>
     <p>
-      Är en fallarmsmarkis utan kassett.
-    </p>
-    <h3>DA32</h3>
-    <p>
-      Är en fallarmsmarkis med kassett.
-    </p>
-    <h3>Manöverering</h3>
-    <p>
-      Utvändig eller invändig manövrering med dragband av polyester är standard.
-      För lagring och skydd av bandet, kan markisen kompletteras med
-      banduppsamlare. Som tillval finns manövrering med vev eller motor. Motorn
-      kan kompletteras med automatiska styrningar, t ex fjärrkontroll eller sol-
+      Utvändig eller invändig manövrering med motor. Möjlighet till att
+      komplettera med automatisk styrning, till exempel fjärrkontroll och sol-
       och vindautomatik.
-    </p>
-    <h3>Montering</h3>
-    <p>
-      Markisen monteras enkelt direkt på fönsterfodret, på vägg eller i nisch.
-      Som tillval finns nischfästen som gör att markisen kan justeras 45–185 mm
-      i djupled.
-    </p>
-    <h3>Fallarmar</h3>
-    <p>
-      Armprofiler är tillverkade av strängpressat aluminium och armkomponenter
-      av pressgjutet zink. Fallarmar med justerbar spänning för optimal
-      dukspänning. Vindsäkrade fallarmar rekommenderas om markisen kommer att
-      utsättas för hård vind.
     </p>
     <h3>Markisduk</h3>
     <p>
       Välj från en bred kollektion med allt från enfärgade till randiga vävar.
     </p>
+    <h3>Montering</h3>
+    <p>Markisen monteras enkelt direkt på väggen eller i takfoten.</p>
     <h3>Markisstativ</h3>
     <p>
       Markisstativet med detaljer finns som standard i 3 färger: Vitt, Grått och
       Svart med struktur. Med lite längre leveranstid kan man få stativet i
       vilken RAL-färg man vill. Detta för att matcha markisen med husets färg.
     </p>
-    <SideImage :image="da22" />
-    <SideImage :image="da32" />
-    <SideImage :image="standardProfile" />
-    <SideImage :image="designProfile" />
+    <h3>Vikarmar</h3>
+    <p>
+      Armprofilerna är tillverkade av strängpressat aluminium och
+      armkomponenterna av pressgjutet aluminium. Vikarmarna har Dyneema® band
+      över knäled för ökad stabilitet. Extra kraftiga fjädrar ger en utmärkt
+      dukspänning.
+    </p>
+    <h3>Tillval</h3>
+    <p>Dekorelement i kontrastfärg.</p>
+
+    <SideImage :image="fa60Front" />
+    <SideImage :image="fa64Sidovy" />
   </div>
 </template>
 
 <script>
 import BigImage from "@/components/BigImage";
 import SideImage from "@/components/SideImage";
-import mainImage from "@/assets/images/products/utomhus/markis/fonstermarkis_22.jpg";
-import da22Image from "@/assets/images/products/utomhus/markis/da22.jpg";
-import da32Image from "@/assets/images/products/utomhus/markis/da32.jpg";
-import designProfileImage from "@/assets/images/products/utomhus/markis/design_profil.jpg";
-import standardProfileImage from "@/assets/images/products/utomhus/markis/standard_profil.jpg";
+import mainImage from "@/assets/images/products/utomhus/markis/fa60.jpg";
+import fa60FrontImage from "@/assets/images/products/utomhus/markis/fa60front.jpg";
+import fa64SidovyImage from "@/assets/images/products/utomhus/markis/fa64sidovy.jpg";
 
 export default {
   data() {
     return {
       main: {
         src: mainImage,
-        alt: "Fönstermarkis",
+        alt: "FA60 terassmarkis",
       },
-      da22: {
-        src: da22Image,
-        alt: "Fönstermarkis DA 22",
+      fa60Front: {
+        src: fa60FrontImage,
+        alt: "Terassmarkis FA60 front",
         side: "left",
       },
-      da32: {
-        src: da32Image,
-        alt: "Fönstermarkis DA 32",
-        side: "left",
-      },
-      designProfile: {
-        src: designProfileImage,
-        alt: "Design profil",
-        side: "left",
-      },
-      standardProfile: {
-        src: standardProfileImage,
-        alt: "Standard profil",
+      fa64Sidovy: {
+        src: fa64SidovyImage,
+        alt: "Terassmarkis FA64 sidovy",
         side: "left",
       },
     };

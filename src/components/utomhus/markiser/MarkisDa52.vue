@@ -42,7 +42,7 @@
 
 <script>
 import BigImage from "@/components/BigImage";
-import mainImage from "@/assets/images/products/utomhus/markis/fonstermarkis_22.jpg";
+import mainImage from "@/assets/images/products/utomhus/markis/da52.jpg";
 
 export default {
   data() {
