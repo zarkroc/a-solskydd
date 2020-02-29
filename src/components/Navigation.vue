@@ -1,7 +1,7 @@
 <template>
   <header class="navbar" :class="{ 'hidden-navbar': !showNavbar }">
     <div class="logo">
-      <a href="Home">
+      <a href="/">
         <img src="@/assets/images/logo2.gif" alt="logo a-solskydd" />
       </a>
     </div>
