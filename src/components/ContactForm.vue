@@ -17,7 +17,7 @@
           </li>
           <li>
             <label for="mail">*E-post:</label>
-            <input type="email" name="email" required v-model="email.value" />
+            <input type="email" name="email" required v-model="message.email" />
             <span>Skriv din e-postadress</span>
           </li>
           <li>
@@ -72,6 +72,7 @@ export default {
   data() {
     return {
       errors: [],
+      message: {},
     };
   },
   methods: {},
