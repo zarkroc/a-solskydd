@@ -4,19 +4,19 @@
       v-on:click="resetShow('TerassmarkisFA22', $event)"
       :class="{ highlight: selected == 'TerassmarkisFA22' }"
     >
-      Terassmarkis FA22/24
+      FA22/24
     </button>
     <button
       v-on:click="resetShow('TerassmarkisFA40', $event)"
       :class="{ highlight: selected == 'TerassmarkisFA40' }"
     >
-      Terassmarkis FA40
+      FA40
     </button>
     <button
       v-on:click="resetShow('TerassmarkisFA62', $event)"
       :class="{ highlight: selected == 'TerassmarkisFA62' }"
     >
-      Terassmarkis FA62/64
+      FA62/64
     </button>
   </div>
 </template>

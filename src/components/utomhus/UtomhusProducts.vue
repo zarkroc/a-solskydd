@@ -28,7 +28,21 @@
       >
         Korgmarkis
       </button>
-      <Korgmarkis @clicked="showComponent" v-if="showKorgmarkis" />
+      <Balkongmarkis @clicked="showComponent" v-if="showBalkongmarkis" />
+      <button
+        v-on:click="showComponent('Balkongmarkis')"
+        :class="{ highlight: selected == 'Balkongmarkis' }"
+      >
+        Balkongmarkis
+      </button>
+      <Balkongmarkis @clicked="showComponent" v-if="showBalkongmarkis" />
+      <button
+        v-on:click="clickProduct('Vertikalmarkis')"
+        :class="{ highlight: selected == 'Vertikalmarkis' }"
+      >
+        Vertikalmarkis &#9662;
+      </button>
+      <Vertikalmarkis @clicked="showComponent" v-if="showVertikalmarkis" />
     </aside>
     <section class="product-container">
       <component v-bind:is="dynamicComponent" v-if="showProduct"></component>
@@ -48,6 +62,8 @@ import Balkongskydd from "@/components/utomhus/Balkongskydd";
 import Markis from "@/components/utomhus/Markis";
 import Terassmarkis from "@/components/utomhus/Terassmarkis";
 import Korgmarkis from "@/components/utomhus/Korgmarkis";
+import Balkongmarkis from "@/components/utomhus/Balkongmarkis";
+import Vertikalmarkis from "@/components/utomhus/Vertikalmarkis";
 
 export default {
   components: {
@@ -55,6 +71,8 @@ export default {
     Markis,
     Terassmarkis,
     Korgmarkis,
+    Balkongmarkis,
+    Vertikalmarkis,
   },
   data() {
     return {
@@ -66,6 +84,8 @@ export default {
       showRullgardiner: false,
       showLamellGardiner: false,
       showKorgmarkis: false,
+      showBalkongmarkis: false,
+      showVertikalmarkis: false,
       dynamicComponent: {
         template: "<p>wheee</p>",
       },
