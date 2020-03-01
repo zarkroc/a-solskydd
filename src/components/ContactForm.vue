@@ -37,15 +37,6 @@
         </ul>
       </form>
     </section>
-    <div class="contact-info">
-      <section class="phone">
-        <h3><i class="fas fa-phone-alt"></i> Telefon</h3>
-        <p>
-          08-938012<br />
-          08-938046
-        </p>
-      </section>
-    </div>
   </section>
 </template>
 

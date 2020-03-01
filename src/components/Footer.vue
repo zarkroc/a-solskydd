@@ -10,15 +10,7 @@
             <br />08-938046
           </p>
         </section>
-        <section class="adress">
-          <h3><i class="fas fa-map-marker-alt"></i> Adress</h3>
-          <p>
-            A-SOLSKYDD
-            <br />Gubbängsvägen 90 <br />122 45 Enskede
-          </p>
-        </section>
       </section>
-
       <section class="social">
         <h2><i class="fas fa-user-friends"></i> Sociala medier</h2>
         <a class="icon" href="#">
