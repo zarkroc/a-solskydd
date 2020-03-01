@@ -41,22 +41,8 @@
       <section class="phone">
         <h3><i class="fas fa-phone-alt"></i> Telefon</h3>
         <p>
-          08-938012
-          <br />08-938046
-        </p>
-      </section>
-      <section class="adress">
-        <h3><i class="fas fa-map-marker-alt"></i> Adress</h3>
-        <p>
-          A-SOLSKYDD
-          <br />Gubbängsvägen 90 <br />122 45 Enskede
-        </p>
-      </section>
-      <section class="open">
-        <h3><i class="fas fa-door-open"></i> Öppettider</h3>
-        <p>
-          Butiken öppnar endast efter överenskommelse.
-          <br />Vänligen ring för att boka tid.
+          08-938012<br />
+          08-938046
         </p>
       </section>
     </div>
