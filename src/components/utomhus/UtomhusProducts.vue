@@ -43,6 +43,34 @@
         Vertikalmarkis &#9662;
       </button>
       <Vertikalmarkis @clicked="showComponent" v-if="showVertikalmarkis" />
+      <button
+        v-on:click="showComponent('Solfilm')"
+        :class="{ highlight: selected == 'Solfilm' }"
+      >
+        Solfilm
+      </button>
+      <Solfilm @clicked="showComponent" v-if="showSolfilm" />
+      <button
+        v-on:click="showComponent('SecurityFilm')"
+        :class="{ highlight: selected == 'SecurityFilm' }"
+      >
+        Säkerhetsfilm
+      </button>
+      <SecurityFilm @clicked="showComponent" v-if="showSecurityFilm" />
+      <button
+        v-on:click="showComponent('Insectnet')"
+        :class="{ highlight: selected == 'Insectnet' }"
+      >
+        Insektsnät
+      </button>
+      <Insectnet @clicked="showComponent" v-if="showInsectnet" />
+      <button
+        v-on:click="showComponent('Fasadpersienn')"
+        :class="{ highlight: selected == 'Fasadpersienn' }"
+      >
+        Fasadpersienn
+      </button>
+      <Fasadpersienn @clicked="showComponent" v-if="showFasadpersienn" />
     </aside>
     <section class="product-container">
       <component v-bind:is="dynamicComponent" v-if="showProduct"></component>
@@ -64,6 +92,10 @@ import Terassmarkis from "@/components/utomhus/Terassmarkis";
 import Korgmarkis from "@/components/utomhus/Korgmarkis";
 import Balkongmarkis from "@/components/utomhus/Balkongmarkis";
 import Vertikalmarkis from "@/components/utomhus/Vertikalmarkis";
+import Fasadpersienn from "@/components/utomhus/Fasadpersienn";
+import Solfilm from "@/components/inomhus/Solfilm";
+import SecurityFilm from "@/components/inomhus/SecurityFilm";
+import Insectnet from "@/components/inomhus/Insectnet";
 
 export default {
   components: {
@@ -73,6 +105,10 @@ export default {
     Korgmarkis,
     Balkongmarkis,
     Vertikalmarkis,
+    Solfilm,
+    SecurityFilm,
+    Insectnet,
+    Fasadpersienn,
   },
   data() {
     return {
@@ -86,6 +122,10 @@ export default {
       showKorgmarkis: false,
       showBalkongmarkis: false,
       showVertikalmarkis: false,
+      showSolfilm: false,
+      showSecurityFilm: false,
+      showInsectnet: false,
+      showFasadpersienn: false,
       dynamicComponent: {
         template: "<p>wheee</p>",
       },
