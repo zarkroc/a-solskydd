@@ -78,6 +78,13 @@
         Quartzvärmare
       </button>
       <Quartzheater @clicked="showComponent" v-if="showQuartzheater" />
+      <button
+        v-on:click="showComponent('Sidomarkis')"
+        :class="{ highlight: selected == 'Sidomarkis' }"
+      >
+        Sidomarkis
+      </button>
+      <Sidomarkis @clicked="showComponent" v-if="showSidomarkis" />
     </aside>
     <section class="product-container">
       <component v-bind:is="dynamicComponent" v-if="showProduct"></component>
@@ -104,6 +111,7 @@ import Solfilm from "@/components/inomhus/Solfilm";
 import SecurityFilm from "@/components/inomhus/SecurityFilm";
 import Insectnet from "@/components/inomhus/Insectnet";
 import Quartzheater from "@/components/utomhus/Quartzheater";
+import Sidomarkis from "@/components/utomhus/Sidomarkis";
 
 export default {
   components: {
@@ -118,6 +126,7 @@ export default {
     Insectnet,
     Fasadpersienn,
     Quartzheater,
+    Sidomarkis,
   },
   data() {
     return {
@@ -136,6 +145,7 @@ export default {
       showInsectnet: false,
       showFasadpersienn: false,
       showQuartzheater: false,
+      showSidomarkis: false,
       dynamicComponent: {
         template: "<p>wheee</p>",
       },

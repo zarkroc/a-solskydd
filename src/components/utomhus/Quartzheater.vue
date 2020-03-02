@@ -49,7 +49,7 @@
       <li>Ljudlös och luktfri</li>
       <li>Miljövänlig</li>
     </ul>
-    <SideImage :image="korgmarkis" />
+    <SideImage :image="quartsheater" />
   </div>
 </template>
 
@@ -66,9 +66,9 @@ export default {
         src: mainImage,
         alt: "Quartzvärmare",
       },
-      korgmarkis: {
+      quartsheater: {
         src: smallImage,
-        alt: "Korgmarkis",
+        alt: "Quartsvärmare närbild",
         side: "small",
       },
     };
