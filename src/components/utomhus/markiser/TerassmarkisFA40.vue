@@ -15,10 +15,12 @@
       <p>
         Öppen terrassmarkis med traditionella gavlar. Integsprodukten i
         standardutförande. <br />
-        Max bredd: 7,0 m. <br />
-        Max utfall: 4,0 m. (Vid 7 m bredd, max utfall 3.5 m)<br />
         Pitchcontrol, tak, rullkappa och teleskopstag.
       </p>
+      <ul>
+        <li>Max bredd: 7,0 m.</li>
+        <li>Max utfall: 4,0 m. (Vid 7 m bredd, max utfall 3.5 m)</li>
+      </ul>
       <SideImage :image="fa42Classic" />
     </section>
     <section class="border-bottom">
@@ -26,10 +28,12 @@
       <p>
         Öppen terrassmarkis i designutförande. Gavlar med modern design som
         elegant förenar olika former. <br />
-        Max bredd: 7,0 m. <br />
-        Max utfall: 4,0 m. (Vid 7 m bredd, max utfall 3.5 m)<br />
         Tillval: Pitchcontrol, tak, rullkappa och teleskopstag.
       </p>
+      <ul>
+        <li>Max bredd: 7,0 m.</li>
+        <li>Max utfall: 4,0 m. (Vid 7 m bredd, max utfall 3.5 m)</li>
+      </ul>
       <SideImage :image="fa44Design" />
     </section>
     <section class="border-bottom">
@@ -37,12 +41,13 @@
       <p>
         Öppen terrassmarkis med Cross Overarmar. Ena armen viks omlott över den
         andra, vilket gör det möjligt att ha terrassmarkisen på en mycket smal
-        terrass eller balkong. <br />
-        Minsta bredd är 1 meter. <br />
-        Max bredd: 4,6 m.<br />
-        Max utfall: 4,0 m <br />
-        Tillval: Tak, rullkappa och teleskopstag.
+        terrass eller balkong. Tillval: Tak, rullkappa och teleskopstag.
       </p>
+      <ul>
+        <li>Minsta bredd är 1 meter.</li>
+        <li>Max bredd: 4,6 m.</li>
+        <li>Max utfall: 4,0 m</li>
+      </ul>
       <SideImage :image="fa45Tak1" />
       <SideImage :image="fa45Tak2" />
     </section>
@@ -51,22 +56,27 @@
       <p>
         Öppen terassmarkis med dukbalk. Duken har en bruten profil som ger extra
         ståhöjd för att till exempel kunna öppa en altandörr helt. En bit ut
-        från fasaden vinklas duken ned för att ge skugga. <br />
-        Max bredd: 7,0 m.<br />
-        Max utfall: 4,0 m (Vid 7m bredd, max utfall 3,5m) <br />
-        Tillval: Pitchcontrol, tak, rullkappa och teleskopstag.
+        från fasaden vinklas duken ned för att ge skugga.
       </p>
+      <ul>
+        <li>Max bredd: 7,0 m.</li>
+        <li>Max utfall: 4,0 m (Vid 7m bredd, max utfall 3,5m)</li>
+        <li>Tillval: Pitchcontrol, tak, rullkappa och teleskopstag.</li>
+      </ul>
       <SideImage :image="fa46" />
     </section>
     <section class="border-bottom">
       <h3>FA48 - Halvkassett</h3>
       <p>
         Kassetten skyddar duken mot väder och vind och ger den längre livslängd.
-        I infällt läge är duken helt dold. Endast motordrift. <br />
-        Max bredd: 7,0 m.<br />
-        Max utfall: 3,5 m<br />
+        I infällt läge är duken helt dold. Endast motordrift.<br />
         Tillval: Pitchcontrol, rullkappa och teleskopstag.
       </p>
+      <ul>
+        <li>Max bredd: 7,0 m.</li>
+        <li>Max utfall: 3,5 m</li>
+      </ul>
+
       <SideImage :image="fa48" />
     </section>
     <h3>Tillval</h3>
