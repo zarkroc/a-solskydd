@@ -71,6 +71,13 @@
         Fasadpersienn
       </button>
       <Fasadpersienn @clicked="showComponent" v-if="showFasadpersienn" />
+      <button
+        v-on:click="showComponent('Quartzheater')"
+        :class="{ highlight: selected == 'Quartzheater' }"
+      >
+        Quartzvärmare
+      </button>
+      <Quartzheater @clicked="showComponent" v-if="showQuartzheater" />
     </aside>
     <section class="product-container">
       <component v-bind:is="dynamicComponent" v-if="showProduct"></component>
@@ -96,6 +103,7 @@ import Fasadpersienn from "@/components/utomhus/Fasadpersienn";
 import Solfilm from "@/components/inomhus/Solfilm";
 import SecurityFilm from "@/components/inomhus/SecurityFilm";
 import Insectnet from "@/components/inomhus/Insectnet";
+import Quartzheater from "@/components/utomhus/Quartzheater";
 
 export default {
   components: {
@@ -109,6 +117,7 @@ export default {
     SecurityFilm,
     Insectnet,
     Fasadpersienn,
+    Quartzheater,
   },
   data() {
     return {
@@ -126,6 +135,7 @@ export default {
       showSecurityFilm: false,
       showInsectnet: false,
       showFasadpersienn: false,
+      showQuartzheater: false,
       dynamicComponent: {
         template: "<p>wheee</p>",
       },
