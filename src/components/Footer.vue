@@ -22,6 +22,6 @@
         <br />
       </section>
     </div>
-    <p>Copyright &copy; A-SOLSKYDD AB 2019</p>
+    <p>Copyright &copy; A-SOLSKYDD 2019</p>
   </footer>
 </template>

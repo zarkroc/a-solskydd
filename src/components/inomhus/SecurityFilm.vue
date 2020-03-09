@@ -15,15 +15,6 @@
       villan.
     </p>
     <h2></h2>
-
-    <h3>Svalt på sommaren...</h3>
-    <p>
-      Under heta sommardagar kan ditt hem bli olidligt varmt. Det finns många
-      sätt att göra hemmet svalare. Du kan dra för gardiner, stänga persiennerna
-      eller kanske installera luftkonditionering. Alternativt kan du låta
-      installera en professionell solfilm. Solfilmer blockerar upp till 80
-      procent av solens strålningsvärme.
-    </p>
     <h3>Säkerhetsfilm som hindrar tjuven</h3>
     <p>
       En säkerhetsfilm eliminerar risken. Den kan monteras på insidan på alla
