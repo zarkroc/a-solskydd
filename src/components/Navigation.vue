@@ -2,7 +2,7 @@
   <header class="navbar" :class="{ 'hidden-navbar': !showNavbar }">
     <div class="logo">
       <a href="/">
-        <img src="@/assets/images/logo2.gif" alt="logo a-solskydd" />
+        <img src="@/assets/images/header3.gif" alt="logo a-solskydd" />
       </a>
     </div>
     <nav>
