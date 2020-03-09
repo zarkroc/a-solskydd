@@ -26,7 +26,7 @@
           </ul>
         </li>
         <li>
-          <a href="#">Referenser</a>
+          <router-link to="/referenser">Referenser</router-link>
         </li>
         <li>
           <a href="#offert">Offert</a>
