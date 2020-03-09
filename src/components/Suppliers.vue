@@ -1,6 +1,6 @@
 <template>
   <section class="suppliers">
-    <h2>Leverantörer</h2>
+    <h2>Samarbetspartners</h2>
     <div class="suppliers-logo">
       <img src="@/assets/images/supplier/hsb.png" alt="HSB" />
       <img src="@/assets/images/supplier/nordic.jpg" alt="Nordic light" />
