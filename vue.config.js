@@ -6,4 +6,7 @@ module.exports = {
       },
     },
   },
+  devServer: {
+    proxy: "https://test.perers.org/",
+  },
 };
