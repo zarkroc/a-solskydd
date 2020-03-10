@@ -12,6 +12,7 @@
       Balkongskyddet kan fås i följande material. Glasfiber, Glasklar plast,
       Markisväv. Räcket kan fås i rund eller rak form
     </p>
+    <BigImage :image="meassure" />
   </div>
 </template>
 
@@ -20,6 +21,7 @@ import BigImage from "@/components/BigImage";
 import main1Image from "@/assets/images/products/utomhus/balkongskydd/hojsank1.jpg";
 import main2Image from "@/assets/images/products/utomhus/balkongskydd/hojsank2.jpg";
 import main3Image from "@/assets/images/products/utomhus/balkongskydd/hojsank3.jpg";
+import matinstruktionImage from "@/assets/images/products/utomhus/balkongskydd/matinstruktion.png";
 
 export default {
   data() {
@@ -35,6 +37,10 @@ export default {
       main3: {
         src: main3Image,
         alt: "Balkongskydd",
+      },
+      meassure: {
+        src: matinstruktionImage,
+        alt: "Mätinstruktion",
       },
     };
   },
