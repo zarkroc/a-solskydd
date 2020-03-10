@@ -12,12 +12,19 @@
     >
       Maxi Balkongskydd
     </button>
+    <button
+      v-on:click="resetShow('BalkongskyddHojSankbar', $event)"
+      :class="{ highlight: selected == 'BalkongskyddHojSankbar' }"
+    >
+      Höj och sänkbart
+    </button>
   </div>
 </template>
 
 <script>
 import BalkongskyddVav from "@/components/utomhus/Balkongskydd/BalkongSkyddVav";
 import MaxiBalkongskydd from "@/components/utomhus/Balkongskydd/MaxiBalkongskydd";
+import BalkongskyddHojSankbar from "@/components/utomhus/Balkongskydd/BalkongskyddHojSankbar";
 
 export default {
   data() {
@@ -31,6 +38,8 @@ export default {
         this.$emit("clicked", BalkongskyddVav);
       } else if (toShow == "MaxiBalkongskydd") {
         this.$emit("clicked", MaxiBalkongskydd);
+      } else if (toShow == "BalkongskyddHojSankbar") {
+        this.$emit("clicked", BalkongskyddHojSankbar);
       }
       this.selected = toShow;
     },
