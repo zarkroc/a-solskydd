@@ -1,5 +1,5 @@
 <template>
-  <main class="products">
+  <main>
     <aside>
       <button
         v-on:click="clickProduct('Balkongskydd')"
