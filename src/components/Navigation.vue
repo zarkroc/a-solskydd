@@ -10,10 +10,10 @@
       <input type="checkbox" id="hamburger" />
       <ul>
         <li>
-          <router-link to="/#about">Om</router-link>
+          <a href="/#about">About</a>
         </li>
         <li>
-          <router-link to="#" aria-label="submenu"
+          <router-link to="/products" aria-label="submenu"
             >Produkter &#9662;</router-link
           >
           <ul class="dropdown">
@@ -29,7 +29,7 @@
           <router-link to="/referenser">Referenser</router-link>
         </li>
         <li>
-          <a href="#offert">Offert</a>
+          <a href="/#offert">Offert</a>
         </li>
       </ul>
     </nav>

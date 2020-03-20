@@ -25,7 +25,7 @@ export default {
     About,
     Suppliers,
     ContactForm,
-    Products
-  }
+    Products,
+  },
 };
 </script>

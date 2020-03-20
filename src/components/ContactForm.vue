@@ -1,6 +1,25 @@
 <template>
   <section class="contact_container" id="offert">
-    <h2>Offert</h2>
+    <h2 id="offert">Offert</h2>
+    <p>
+      Om offert önskas vore vi tacksamma att Du beaktar följande i Din
+      förfrågan:
+    </p>
+    <h3>För invändiga produkter</h3>
+    <p>
+      Måtta bredd och höjd över det område som ska täckas av solskyddet.
+      Cirkamått räcker, och glöm inte ange önskat antal för produkt med samma
+      mått.
+    </p>
+    <h3>För utvändiga produkter</h3>
+    <p>
+      Fönstermarkis; måtta bredd och fönstrets halva höjd.<br />
+      Terrassmarkis; måtta bredd och det utfall som markisen ska täcka. <br />
+      Balkongmarkis; måtta balkongens bredd. <br />
+      Höjd- och sänkbart balkongskydd;<br />
+      måtta längs räcket för det område som ska täckas. <br />
+      Cirkamått räcker i samtliga fall.
+    </p>
     <section class="mail">
       <h3>Skicka meddelande</h3>
       <form
