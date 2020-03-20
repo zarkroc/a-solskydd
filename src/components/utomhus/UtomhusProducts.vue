@@ -1,5 +1,5 @@
 <template>
-  <main class="products">
+  <main class="products-main">
     <aside>
       <button
         v-on:click="clickProduct('Balkongskydd')"
@@ -86,7 +86,7 @@
       </button>
       <Sidomarkis @clicked="showComponent" v-if="showSidomarkis" />
     </aside>
-    <section class="product-container">
+    <section class="product-main-container">
       <component v-bind:is="dynamicComponent" v-if="showProduct"></component>
       <div class="in_products" v-else>
         <section class="in_border">

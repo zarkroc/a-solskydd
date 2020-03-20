@@ -1,5 +1,5 @@
 <template>
-  <main class="products">
+  <main class="products-main">
     <aside>
       <button
         v-on:click="clickProduct('Persienner')"
@@ -59,7 +59,7 @@
       </button>
       <Insectnet @clicked="showComponent" v-if="showInsectnet" />
     </aside>
-    <section class="product-container">
+    <section class="product-main-container">
       <component v-bind:is="dynamicComponent" v-if="showProduct"></component>
       <div class="in_products" v-else>
         <section class="in_border">
