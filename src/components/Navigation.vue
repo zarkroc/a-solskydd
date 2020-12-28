@@ -14,16 +14,8 @@
         </li>
         <li>
           <router-link to="/products" aria-label="submenu"
-            >Produkter &#9662;</router-link
+            >Produkter</router-link
           >
-          <ul class="dropdown">
-            <li>
-              <router-link to="/products/inomhus">Invändiga</router-link>
-            </li>
-            <li>
-              <router-link to="/products/utomhus">Utvändiga</router-link>
-            </li>
-          </ul>
         </li>
         <li>
           <router-link to="/referenser">Referenser</router-link>
